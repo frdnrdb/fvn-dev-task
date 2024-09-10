@@ -8,6 +8,7 @@ const factBoxListener = () => {
 
 // burn after reading
 const presentation = () => {
+  const root = document.getElementById('root'); // 🙃
   root.innerHTML = 'Element som presenterer data om dysleksi basert på <a href="https://dysleksinorge.no/statistikk-laerevansker/">statistikk for lærevansker</a>';
   root.style.background = 'gold';
   root.style.padding = '2em';
